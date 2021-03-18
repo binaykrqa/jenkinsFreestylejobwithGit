@@ -17,7 +17,7 @@ public class JenkinsDemo {
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		// it will open the goggle page
 		driver.get("http://google.in");
-		// we expect the title “Google “ should be present
+		// we expect the title â€œGoogle â€œ should be present
 		String Expectedtitle = "Google";
 		// it will fetch the actual title
 		String Actualtitle = driver.getTitle();
@@ -27,7 +27,7 @@ public class JenkinsDemo {
 		// print out the result
 		System.out.println("After Assertion " + Expectedtitle + Actualtitle + " Title matched ");
 		System.out.println("First Testcase Scessfuull!!!!! ");
-		driver.close();
+		//driver.close();
 	}
 
 }
